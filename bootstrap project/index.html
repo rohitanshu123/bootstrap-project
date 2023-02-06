@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>bootstrap page</title>
+</head>
+<style>
+    .container {
+        background-color: aliceblue;
+    }
+
+    .row {
+        background-color: aqua;
+
+    }
+
+    #header {
+        background-color: aquamarine;
+        text-align: center;
+    }
+
+    #menu {
+        background-color: azure;
+    }
+
+    #content {
+        background-color: beige;
+    }
+
+    #sidebar {
+        background-color: blanchedalmond;
+    }
+
+    #footer {
+        background-color: wheat;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">blog kro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            </div>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <div class="row" id="content">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>team</th>
+                    <th>All star</th>
+                    <th>Remove</th>
+                </tr>
+                <tr>
+                    <td>Steph</td>
+                    <td>worriers</td>
+                    <td>yes</td>
+                    <td><button type="button" class="close" aria-label="Close" color="red">
+                            <span aria-hidden="true">&times;</span>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>lebro</td>
+                    <td>cavaliers</td>
+                    <td>yes</td>
+                    <td><button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Dwayne</td>
+                    <td>heat</td>
+                    <td>yes
+                        <span aria-hidden="true" style="background-color:aqua">last</span>
+                    </td>
+                    <td><button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>Kobe</td>
+                    <td>lakers</td>
+                    <td>yes</td>
+                    <td><button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td>isaiah</td>
+                    <td>celtics</td>
+                    <td>yes
+                        <span style="background-color:crimson">first</span>
+                    </td>
+                    <td><button type="button" class="close" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button></td>
+                </tr>
+            </table>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="row" style="background-color:rgb(161, 238, 46)">
+            feeling good about bootstrap
+        </div>
+        <div class="row" style="background-color:rgb(209, 197, 33)"> its cool</div>
+        <div class="row" style="background-color:aqua"> i love bootstrap</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
